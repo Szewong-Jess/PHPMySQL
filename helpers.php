@@ -1,7 +1,5 @@
 <?php
 
-//Wong Sze 300359901
-
 function display_form($errors=[]){
     echo "<form method='POST' action='$_SERVER[PHP_SELF]'>
     <label>PID</label><input type='number' name='pid' value='" . ($_SESSION['PID'] ?? '') . "'/>";
